@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+#sitetitle {
+  max-width: 300px;
+  height: 70px;
+  background-color: orange;
+}
+.nav1 {
+  width: 70px;
+  height: 70px;
+  background-color: orchid;
+  display: flex;
+}
+.nav2 {
+  width: 70px;
+  height: 70px;
+  background-color: orchid;
+}
+.nav3 {
+  width: 70px;
+  height: 70px;
+  background-color: orchid;
+}
