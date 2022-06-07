@@ -1,0 +1,199 @@
+/* Eliminamos márgenes y ponemos fondo de página negro */
+html,body {
+    margin:0;
+    background:#fff;
+  }
+  
+  /* Bernard Bernoulli: Animación del personaje */
+  #bern {
+    width:112px;
+    height:156px;
+    padding-top:200px;  
+    background:url(https://i.imgur.com/ifk0SLH.png) repeat-x;
+    animation:walk .8s steps(6) infinite;
+    position:relative;
+    bottom:34px;
+  }
+  
+  @keyframes walk {
+    0% { background-position:0 }
+    100% { background-position:-672px }
+  }
+  
+  
+  /* Animación para mover cielo y mar */
+  @keyframes movebg {
+    0% { background-position:550px } 
+    100% { background-position:0 }
+  }
+  
+  /* OPCIONAL: Guybrush */
+  #gb {
+    width:104px;
+    height:150px;
+    background:url(https://i.imgur.com/egTLaCy.png) no-repeat;
+    animation:gbwalk 1s steps(6) infinite;
+    margin:auto;
+    position:relative;
+    top:34px;
+  }
+  
+  @keyframes gbwalk {
+    0% { background-position:0 }
+    100% { background-position:-624px }
+  }
+
+/* box1 */
+  .make-box1{
+    width: 320px;
+    padding: 15px;
+    background-color: rgb(209, 206, 27);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:7px 12px rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 15px;
+    transition:0.90s all;
+    margin-top:-110px;
+  }
+  .make-box1:hover{
+    width: 320px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.225);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:2px 2px rgba(0, 0, 0, 0.225);
+    border-bottom-right-radius: 15px;
+    margin-top:-110px;
+  }
+
+/*box 2*/
+  .make-box2{
+    width: 320px;
+    padding: 15px;
+    background-color: rgb(209, 206, 27);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:7px 12px rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 15px;
+    transition:0.90s all;
+    margin-top:20px;
+  }
+  .make-box2:hover{
+    width: 320px;
+    padding: 15px;
+    background-color:rgba(0, 0, 0, 0.225);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:2px 2px rgba(0, 0, 0, 0.225);
+    border-bottom-right-radius: 15px;
+    margin-top:20px;
+  }
+
+/*box 3*/
+  .make-box3{
+    width: 320px;
+    padding: 15px;
+    background-color: rgb(209, 206, 27);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:7px 12px rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 15px;
+    transition:0.90s all;
+    margin-top:20px;
+  }
+  .make-box3:hover{
+    width: 320px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.225);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:2px 2px rgba(0, 0, 0, 0.225);
+    border-bottom-right-radius: 15px;
+    margin-top:20px;
+  }
+
+/*box 4*/
+  .make-box4{
+    width: 320px;
+    padding: 15px;
+    background-color: rgb(209, 206, 27);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:7px 12px rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 15px;
+    transition:0.90s all;
+    margin-top:20px;
+  }
+  .make-box4:hover{
+    width: 320px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.225);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:2px 2px rgba(0, 0, 0, 0.225);
+    border-bottom-right-radius: 15px;
+    margin-top:20px;
+  }
+
+/*box 5*/
+  .make-box5{
+    width: 320px;
+    padding: 15px;
+    background-color: rgb(209, 206, 27);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:7px 12px rgba(0, 0, 0, 0.411);
+    border-bottom-right-radius: 15px;
+    transition:0.90s all;
+    margin-top:20px;
+  }
+  .make-box5:hover{
+    width: 320px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.225);
+    margin: 0;
+    font-family:'kaushan script';
+    color: #fff;
+    font-weight:bold;
+    text-shadow: 3px 3px #000;
+    border-top-left-radius: 15px;
+    box-shadow:2px 2px rgba(0, 0, 0, 0.225);
+    border-bottom-right-radius: 15px;
+    margin-top:20px;
+  }
