@@ -158,32 +158,17 @@ body {
         transform: scaleX(0.7);
     }
 }
-.alfatehh{
-    font-size:20px;
-    color: white;
-    margin-top: 150px;
-    font-family: 'comfortaa';
-    text-align: center;
-    text-transform: uppercase;
-    transition: all 4s;
+.alfateh {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 65px;
+    top: 20px;
+    border-radius: 50px 50px 50px 5px;
+    animation: bubble-scale 2s infinite;
 }
-.alfateh{
-    font-size:20px;
-    color: white;
-    margin-top: 150px;
-    font-family: 'comfortaa';
-    text-align: center;
-    text-transform: uppercase;
-    transition: all 4s;
+@keyframes bubble-scale {
+    50% {
+        transform: scale(1.6);
+    }
 }
-.alfatehh:hover{
-    font-size:35px;
-    color: white;
-    margin-top: 150px;
-    font-family: 'comfortaa';
-    text-align: center;
-    text-transform: uppercase;
-}
-/* #pak{
-    display: none;
-} */
